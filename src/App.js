@@ -14,7 +14,7 @@ function App() {
 
     useEffect(() => {
         isUserAuth();
-    }, [state, isAuth, isUserAuth]);
+    }, [state, isAuth]);
 
 
     return <div className="App">
