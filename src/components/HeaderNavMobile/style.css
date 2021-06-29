@@ -1,0 +1,13 @@
+.HeaderNavMobile{
+    padding: 20px;
+}
+
+
+.HeaderNavMobile .HamburguerIcon svg{
+    fill:  var(--bg-white);
+}
+
+.HeaderNavMobile .HamburguerIcon button{
+    border: none;
+    background: transparent;
+}

@@ -1,0 +1,39 @@
+:root {
+    --bg-white: #ecf0f1;
+    --bg-purple: #8e44ad;
+    --bg-light-purple: #8365cb;
+    --gradient: linear-gradient(332deg, rgba(155,89,182,1) 0%, rgba(155,89,182,1) 5%, rgba(131,101,203,1) 94%, 
+    rgba(103,115,227,1) 99%, rgba(82,126,245,1) 100%);
+    --gradient-blue:linear-gradient(332deg, rgba(103,115,227,1) 0%, rgba(103,115,227,1) 5%, rgba(103,115,227,1) 94%, rgba(131,101,203,1) 99%, rgba(131,101,203,1) 100%);
+    --gradient-pink:linear-gradient(332deg, rgba(255,107,129,1) 0%, rgba(255,107,129,1) 5%, rgba(131,101,203,1) 94%, rgba(103,115,227,1) 99%, rgba(82,126,245,1) 100%);
+    --bg-black: #1e272e;
+    --bg-softgray:#747d8c;
+    --bg-blue:#527ef5;
+    --bg-pink:#ff6b81;
+    
+}
+
+body {
+  margin: 0;
+  background-color: var(--bg-white);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,h2,h3,h4,h5,h6,p,span{
+    color: var(--bg-black);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.ErrorMessage{
+    font-size: 14px;
+    color: #ff6b81;
+    font-weight: 500;
+}

@@ -1,0 +1,61 @@
+.PurchaseContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.PurchaseContent .ContentLeft{
+    width: 40%;
+    padding: 0 20px;
+}
+
+.PurchaseContent .ContentRight{
+    width: auto;
+}
+
+.PurchaseContent .ContentRight img{
+    width: 600px;
+}
+
+@media (max-width:1024px){
+    .PurchaseContent .ContentRight img{
+        width: 450px;
+    }
+}
+
+
+@media (max-width:768px){
+    .PurchaseContent{
+        display: block;
+        justify-content: unset;
+        align-items: unset;
+    }
+
+    .PurchaseContent .ContentLeft {
+        margin: auto;
+        width: 60%;
+        text-align: center;
+        padding: 0;
+    }
+
+    .PurchaseContent .ContentRight {
+        text-align: center;
+    }
+}
+
+@media(max-width:425px){
+    .PurchaseContent .ContentRight img{
+        width: 350px;
+    }
+
+    .PurchaseContent .ContentLeft{
+        width: 90%;
+    }
+}
+
+
+@media(max-width:320px){
+    .PurchaseContent .ContentRight img{
+        width: 250px;
+    }
+}

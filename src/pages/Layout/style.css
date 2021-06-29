@@ -1,0 +1,35 @@
+.LayoutHeader{
+    background: var(--bg-purple);
+    background: var(--gradient);
+    padding: 20px;
+}
+
+.Container{
+    text-align: center;
+    width: 500px;
+    margin: auto;
+}
+
+.LayoutHeaderItem{
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.LayoutHeader button {
+    border:none;
+    background-color: transparent;
+}
+
+@media(max-width: 425px){
+    .Container{
+        width: auto;
+        margin: 20px;
+    }
+}
+
+
+
+

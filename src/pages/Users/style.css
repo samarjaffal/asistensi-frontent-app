@@ -1,0 +1,67 @@
+.UserList ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.UserList .UserListHeaderColumns{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.UserList .UserListHeaderColumns div{
+    width: 50%;
+    color:var(--bg-black);
+}
+
+
+.UserList .row{
+    display: flex;
+    padding:10px;
+    cursor: pointer;
+}
+
+.UserList .row:hover{
+    background-color: #F3F5FF;
+    transition-duration: 0.5s;
+    transition-property: all;
+    color: var(--bg-black);
+    border-radius: 8px;
+}
+
+.UserList .row div{
+    width: 50%;
+}
+
+.UserListButtonsContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.UserListButtonsContainer button{
+    margin-right: 10px;
+}
+
+
+@media(max-width: 425px){
+    .ColumnEmail{
+        display: none;
+    }
+
+    .UserList .UserListHeaderColumns .ColumnUsername
+   {
+        width: 100% !important;
+    }
+
+    .UserList .row .ColumnUsername{
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+

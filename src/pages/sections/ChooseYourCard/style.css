@@ -1,0 +1,55 @@
+
+.ChooseYourCard{
+    padding-bottom: 100px;
+}
+
+.ChooseYourCard .ChooseYourCardContent{
+    width: 60%;
+    margin: auto;
+}
+
+.ChooseYourCardTitle{
+    font-size: 28px;
+    text-align: center;
+}
+
+.ChooseYourCardDescription{
+    width: 80%;
+    color: var(--bg-softgray);
+    margin: auto;
+    text-align: center;
+}
+
+.ChooseYourCard .ListOfCreditCards{
+    margin-top: 40px;
+}
+
+.ChooseYourCard .ListOfCreditCards ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    padding-left: 40px;
+    list-style: none;
+}
+
+.ChooseYourCard .ListOfCreditCards ul li{
+    margin-right: 18px;
+}
+
+.ChooseYourCard .ListOfCreditCards ul li:last-child{
+    margin-right:none;
+}
+
+
+@media (max-width:768px){
+    .ChooseYourCard {
+        padding-top: 60px;
+    }
+}
+
+@media (max-width:425px){
+    .ChooseYourCard .ChooseYourCardContent{
+        width: 90%;
+    }
+}

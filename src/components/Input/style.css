@@ -1,0 +1,15 @@
+.FormInput{
+    width: 100%;
+    border: none;
+    padding: 14px;
+    background: #F3F5FF;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border: 1px solid #F3F5FF;
+}
+
+.FormInput:focus-visible{
+    outline: none;
+    border: 1px solid var(--bg-purple);
+}

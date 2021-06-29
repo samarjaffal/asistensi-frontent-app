@@ -1,0 +1,120 @@
+.CardContainer .Card {
+    width: 450px;
+    margin: auto;
+    height: 260px;
+    border-radius: 8px;
+    box-shadow: 0px 3px 6px rgb(0 0 0 / 16%);
+    -webkit-box-shadow: 0px 3px 6px rgb(0 0 0 / 16%);
+    -moz-box-shadow: 0px 3px 6px rgba(0, 0, 0, 16%);
+}
+
+.CardContainer .Card.purple{
+    background: var(--bg-purple);
+    background: var(--gradient);
+}
+
+.CardContainer .Card.blue{
+    background: var(--bg-blue);
+    background:var(--gradient-blue);
+}
+
+.CardContainer .Card.pink{
+    background: var(--bg-pink);
+    background: var(--gradient-pink);
+}
+
+
+.CardContainer .Card .CardLogo{
+    text-align: right;
+    padding: 20px;
+    padding-bottom: 10px;
+}
+
+.CardContainer .Card .CardLogo img{
+    width: 80px;
+}
+
+.CardContainer .Card .CardChip{
+    width: 80px;
+    height: 50px;
+    background: #f1c40f;
+    border-radius: 8px;
+    margin-left: 40px;
+}
+
+.CardContainer .Card .CardNumber{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+    margin-top: 20px;
+}
+
+.CardContainer .Card .CardExp{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.CardContainer .Card .CardUser{
+    font-size: 22px;
+    color: white;
+    margin-left: 40px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+
+@media(max-width:570px){
+    .CardContainer .Card{
+        width: 350px;
+        height: 200px;
+    }
+
+    .CardContainer .Card .CardChip{
+        width: 60px;
+        height: 35px;
+    }
+
+    .CardContainer .Card .CardNumber{
+        font-size: 18px;
+    }
+    .CardContainer .Card .CardExp{
+        font-size: 16px;
+    }
+    .CardContainer .Card .CardUser{
+        font-size: 16px;
+        margin-top: 10px;
+    }
+}
+
+
+@media (max-width:425px){
+    .CardContainer .Card{
+        width: 250px;
+        height: 150px;
+    }
+
+    .CardContainer .Card .CardLogo img{
+        width: 40px;
+    }
+
+    .CardContainer .Card .CardChip{
+        width: 40px;
+        height: 20px;
+    }
+
+    .CardContainer .Card .CardNumber{
+        font-size: 12px;
+        margin-top: 10px;
+    }
+
+    .CardContainer .Card .CardExp{
+        font-size: 12px;
+    }
+
+    .CardContainer .Card .CardUser{
+        font-size: 12px;
+        margin-top: 10px;
+    }
+}

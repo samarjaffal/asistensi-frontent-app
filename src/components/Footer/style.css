@@ -1,0 +1,111 @@
+.Footer{
+    padding: 50px 0;
+    background: #dfe4ea;
+    border-top-right-radius: 45%;
+}
+
+.FooterContainerUp{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Footer ul{
+    list-style: none;
+    padding: 0;
+}
+
+/* .Footer ul li{
+    margin: 1em 0;
+}
+
+.Footer  ul li a {
+    text-decoration: none;
+    color: var(--bg-softgray);
+}
+
+
+.Footer .FooterContainerUp .BlockTitle{
+    color: var(--bg-black);
+    font-weight: 600;;
+} */
+
+.Footer .FooterContainerUp .BlockSuscribe form input{
+    border: none;
+    height: 40px;
+}
+
+.Footer .FooterContainerUp .BlockSuscribe form{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.Footer .FooterContainerUp .BlockSuscribe form button{
+    width: 50px;
+    height: 40px;
+    background: var(--bg-purple);
+    background: var(--gradient);
+    border:none;
+    cursor: pointer;
+}
+
+.Footer .FooterContainerUp .BlockSuscribe form button svg{
+    fill: var(--bg-white);
+}
+
+.FooterContainerBottom {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.FooterContainerBottom .Menu a{
+    text-decoration: none;
+    color: var(--bg-black);
+    font-weight: 600;
+    margin-right: 20px;
+}
+
+.FooterContainerBottom .Menu a:last-child{
+    margin-right:0;
+}
+
+.FooterContainerBottom .SocialMedia{
+    margin-top: 30px;
+}
+
+.FooterContainerBottom .SocialMedia a{
+    margin-right: 10px;
+}
+
+.FooterContainerBottom .SocialMedia a svg{
+    fill: var(--bg-softgray);
+}
+
+
+@media (max-width:768px){
+    .Footer{
+        border-top-right-radius: 0;
+    }
+}
+
+@media(max-width:425px){
+    .FooterContainerUp{
+       display: block;
+       text-align: center;
+       justify-content: unset;
+    }
+    .Footer .FooterContainerUp .BlockSuscribe form{
+        justify-content: center;
+    }
+}
+
+@media (max-width:375px){
+    .FooterContainerBottom .Menu{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .FooterContainerBottom .Menu a{
+        margin-bottom: 10px;
+    }
+}

@@ -1,0 +1,24 @@
+.UserInfoContainer{
+    margin-bottom: 20px;
+    color: var(--bg-black);
+}
+
+.EditUserContainer .ButtonsContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.EditUserContainer .ButtonsContainer button{
+    margin-right:10px ;
+}
+
+@media(max-width: 425px){
+    .EditUserContainer .ButtonsContainer{
+        flex-wrap: wrap;
+    }
+
+    .EditUserContainer .ButtonsContainer button{
+        margin-bottom: 10px;
+    }
+}
